@@ -1346,6 +1346,8 @@ echo '<p class="lstResult">'
             echo '</div>';
         } /** EO foreach **/
         
+    } /** EO if (!empty($latestResult)) **/
+        
         /** ************************* COMING SOON BUTTON ******************************** **/
         if(/**$gId != '101D' && **/$gId != '134' && $gId != 'FL1' && $gId != 'FLZ' && $gId != 'FL3' && $gId != 'FL7'  && $gId != 'FL6' && $gId != 'NY1' && $gId != 'NY5' && $gId != 'NY2'){
             echo '<p class="acsoon">Detail Analysis COMING SOON!</p>';
